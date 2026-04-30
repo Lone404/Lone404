@@ -8,7 +8,7 @@ I run **[Ryse RP](https://ryserp.com.br)** — a Brazilian roleplay server I bui
 - Custom framework (`ryse_core`) — `RcPlayer` metatable, vehicle/account classes, multichar, queue with realtime sync, Steam-link anti-multiaccount, donation benefits, statebags
 - Defense-in-depth modules: `event_guard`, `statebag_guard`, `freeze_apply`, `ac_watchdog` — server trusts nothing the client says
 - Custom inventory (slot-based + metadata, cases platform, typed stashes, crafts, clothing bridges)
-- Custom phone with calls, videocall, messages, mail, bleeter, photos, marketplace, BleDex, crypto, wallet, integrated garages/houses/jobs
+- Custom phone with calls, videocall, messages, mail, photos, marketplace, crypto, wallet, integrated garages/houses/jobs
 - Police MDT in Clean Architecture (infrastructure / services / repositories / presentation / callbacks) + Svelte 5 NUI with Tiptap, Leaflet, jsPDF, dnd-kit
 
 **Web & integrations**
@@ -17,7 +17,7 @@ I run **[Ryse RP](https://ryserp.com.br)** — a Brazilian roleplay server I bui
 - Discord bot in `discord.js v14` driving role grant and payment reconciliation
 
 **NUI**
-- React and Svelte 5, standardized on Bun (Vite/esbuild bundles), Lottie integration, `ox_lib` callbacks for transport, focus discipline
+- React & Svelte 5, standardized on Bun (Vite/esbuild bundles), Lottie integration, `ox_lib` callbacks for transport, focus discipline
 
 #### Stack
 
