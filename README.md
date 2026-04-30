@@ -1,6 +1,6 @@
 ### Hi there,
 
-I run **[Ryse RP](https://ryserp.com.br)** — a Brazilian roleplay server I built mostly from scratch: framework, inventory, phone, MDT, dispatch, housing, banking, jobs, payments. Server-authoritative everything; client owns visuals only.
+I run **[Ryse](https://ryserp.com.br)** — a Brazilian roleplay server I built mostly from scratch: framework, inventory, phone, MDT, dispatch, housing, banking, jobs, payments. Server-authoritative everything; client owns visuals only.
 
 #### What I work on
 
