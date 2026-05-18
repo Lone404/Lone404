@@ -13,7 +13,6 @@ I run **[Ryse](https://ryserp.com.br)** — a Brazilian roleplay server I built 
 
 **Web & integrations**
 - Next.js 15 + React 19 + NextAuth 5 storefront, Discord OAuth, Supabase service-role kept server-side only
-- Custom payment webhook handler — timing-safe secret compare, HMAC-SHA256 verify, timestamp replay protection, `devMode` guard in production, amount cross-check vs catalog, idempotent fulfillment via DB unique constraint
 - Discord bot in `discord.js v14` driving role grant and payment reconciliation
 
 **NUI**
