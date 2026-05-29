@@ -5,11 +5,11 @@ I run **[Ryse](https://ryserp.com.br)** — a Brazilian roleplay server I built 
 #### What I work on
 
 **Game server (Lua & TypeScript)**
-- Custom framework (`ryse_core`) — `RcPlayer` metatable, vehicle/account classes, multichar, queue with realtime sync, Steam-link anti-multiaccount, donation benefits, statebags
-- Defense-in-depth modules: `event_guard`, `statebag_guard`, `freeze_apply`, `ac_watchdog` — server trusts nothing the client says
+- Custom framework (`ryse_core`) — `RcPlayer` metatable, vehicle/account classes, multichar, queue with realtime sync, Steam-link, donation benefits, statebags
+- Defense-in-depth modules: `event_guard`, `statebag_guard`, `freeze_apply`, `ac_watchdog` — server trusts
 - Custom inventory (slot-based + metadata, cases platform, typed stashes, crafts, clothing bridges)
 - Custom phone with calls, videocall, messages, mail, photos, marketplace, crypto, wallet, integrated garages/houses/jobs
-- Police MDT in Clean Architecture (infrastructure / services / repositories / presentation / callbacks) + Svelte 5 NUI with Tiptap, Leaflet, jsPDF, dnd-kit
+- Clean Architecture (infrastructure / services / repositories / presentation / callbacks)
 
 **Web & integrations**
 - Next.js 15 + React 19 + NextAuth 5 storefront, Discord OAuth, Supabase service-role kept server-side only
@@ -20,7 +20,5 @@ I run **[Ryse](https://ryserp.com.br)** — a Brazilian roleplay server I built 
 
 #### Stack
 
-- **Lua** (server-authoritative), **TypeScript** (Next.js 15, Svelte 5, NUI React), **Node** (Discord bot)
-- **MySQL** via `oxmysql` (prepared statements on hot paths), **Supabase** for web/queue/payments
-- `ox_lib`, `pma-voice`
-- Tooling: `pnpm`, `bun`, Vite, ESLint, Biome, Playwright
+- **Lua** (server-authoritative), **TypeScript** (Next.js 15, Svelte 5 :Runes, NUI React), **Node** (Discord bot)
+- Tooling: `pnpm`, `bun`, Vite
