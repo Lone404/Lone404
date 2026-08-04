@@ -1,12 +1,12 @@
 ### Hi there,
 
-I run **[Ryse](https://ryserp.com.br)** — a Brazilian roleplay server I built mostly from scratch: framework, inventory, phone, MDT, dispatch, housing, banking, jobs, payments. Server-authoritative everything; client owns visuals only.
+I run **[Ryse](https://ryserp.com.br)** - a Brazilian roleplay server I built mostly from scratch: framework, inventory, phone, MDT, dispatch, housing, banking, jobs, payments. Server-authoritative everything; client owns visuals only.
 
 #### What I work on
 
 **Game server (Lua & TypeScript)**
-- Custom framework (`ryse_core`) — `RcPlayer` metatable, vehicle/account classes, multichar, queue with realtime sync, Steam-link, donation benefits, statebags
-- Defense-in-depth modules: `event_guard`, `statebag_guard`, `freeze_apply`, `ac_watchdog` — server trusts
+- Custom framework (`ryse_core`) - `RcPlayer` metatable, vehicle/account classes, multichar, queue with realtime sync, Steam-link, donation benefits, statebags
+- Defense-in-depth modules: `event_guard`, `statebag_guard`, `freeze_apply`, `ac_watchdog` - server trusts
 - Custom inventory (slot-based + metadata, cases platform, typed stashes, crafts, clothing bridges)
 - Custom phone with calls, videocall, messages, mail, photos, marketplace, crypto, wallet, integrated garages/houses/jobs
 - Clean Architecture (infrastructure / services / repositories / presentation / callbacks)
